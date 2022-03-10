@@ -6,7 +6,7 @@ public class Question_12
         Scanner sc=new Scanner(System.in);
         float f=sc.nextFloat();
         String str=String.valueOf(f);
-        int i=str.indexOf('.');
-        System.out.println(str.substring(i+1).length());
+        int in=str.indexOf('.');
+        System.out.println(str.substring(in+1).length());
     }
 }
